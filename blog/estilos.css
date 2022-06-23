@@ -1,0 +1,253 @@
+.tituloPrincipal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.body{
+    background-image: url("blublu.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+*{
+    margin: 0px;
+}
+.cuadroPrincipal{
+    font-family:'Times New Roman', Times, serif;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.cuadroPrincipal__boton{
+    width: 30%;
+    height: 20%;
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.redesSociales{
+    
+    background-color: rgba(248, 213, 213, 0.776);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redesSociales__logo{
+    height: 30px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.menu{
+    
+    background-color: rgba(235, 168, 191, 0.881);
+    height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.menu__logotipos{
+    height: 70px;
+
+}
+.menu__lista{
+    display: flex;
+    list-style: none;
+    color:rgb(245, 31, 166);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu__lista__elemento{
+    margin-left: 40px;
+}
+.menu__lista_link{
+    text-decoration:none;
+    color:rgba(87, 84, 80, 0.785);
+}
+.footer{
+    background:linear-gradient(rgb(248, 183, 183), rgba(249, 188, 210, 0.831),rgba(240, 197, 217, 0.705)) rgb(245, 217, 231);
+    height: 100px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.footer__texto{
+    font-family: play;
+    color:aliceblue;
+    font-size: 20px;
+}
+.titulo{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+
+    
+}
+.card_1{
+    
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    
+}
+.imagen1{
+    height: 250px;
+    
+
+}
+.imagenb{
+    width: 30%;
+
+}
+.contenedor{
+    border: 7px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.menu_lista_link:hover{ 
+    color: whitesmoke;
+    }
+    
+    .footer{ 
+        background:linear-gradient(#e2bcb7,#f1e7e4);
+        height: 100px;
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    
+    .footer_texto{ 
+        font-family:"play";
+        color:black;
+        font-size: 20px;
+    }
+    
+    .Lado_Derecho{
+        border: 7px;
+        display: flex;
+        justify-content:center ;
+        margin-top: 90px;
+        margin-bottom: 90px;
+        align-items: flex-start;
+        
+    }
+    
+    .Lado_Derecho__img{
+        width: 20%;
+        
+    }
+    
+    .Lado_Derecho__texto{
+        width: 35%;
+        justify-content: center;
+        
+    }
+
+     h1,p{
+        margin: 30px;
+        text-align:center;
+    }
+
+    .proyectos{ 
+        display: flex;
+        justify-content: center;
+    }
+
+    .card{ 
+       /* border: 5px solid #e2bcb7;*/
+        width: 25%;
+        text-align: center;
+        margin: 0 10px;
+    }
+    h2{
+        font-size:medium;
+    }
+
+.card__img{ 
+    width: 10px;
+    height: 10px;
+    
+}
+
+
+.proyectos2{ 
+    display: flex;
+    justify-content: center;
+}
+
+.card2{ 
+    /* border: 5px solid #2a2a2a;*/
+    width: 25%;
+    text-align: center;
+    margin: 0 10px;
+}
+.card__img2{ 
+    width: 15%
+    }
+    
+    .espacio{ 
+        height: 40px;
+    }
+    .botones{
+        background-color: #f3d9d5;
+     }
+    
+    .foto{ 
+         width: 15%;
+     }
+    
+.fotos{
+    width: 70%;
+    height: 70%;
+}
+.contenedor1{ 
+    border:7px;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.boton{
+    width: 50%;
+    height: 20%;
+}
+
+.botones{
+    width: 25%;
+    height: 5%;
+    background-color:#f3ded8;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foto_1{
+    width: 15%;
+    margin-top: 5%;
+    border-radius: 5%;
+    
+}
+.img{ 
+ display: flex;
+ justify-content: center;
+}
+ 
+.redesSociales_2{ 
+  height: 10px;
+ display: flex;
+ justify-content: center;
+}
+
+.nombre{
+    text-align: justify;
+     
+}
+.redes_sociales_logo{ 
+    height:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
